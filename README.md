@@ -6,7 +6,7 @@ This repository contains Solidity smart contracts, deployment scripts, and test 
 - [Workshop Overview](#workshop-overview)
 - [Project Overview](#project-overview)
 - [Agenda](#agenda)
-- [Contracts](#contracts)
+- [Smart Contracts](#contracts)
 - [Deployment Scripts](#deployment-scripts)
 - [Tests](#tests)
 
@@ -47,7 +47,7 @@ The agenda for the workshop was as follows:
     - Writing unit tests using `Mocha` and `Chai`.
 5. **Q&A and Project Showcase**: A wrap-up session with questions, solutions to challenges faced, and a presentation of the final project.
 
-## Contracts
+## Smart Contracts
 
 1. **Storage.sol**: A basic smart contract that stores an integer and allows for updating and retrieving this stored value.
 2. **Owner.sol**: An ownership contract that introduces an `onlyOwner` modifier to restrict function access, demonstrating how to implement access control.
@@ -59,9 +59,6 @@ The agenda for the workshop was as follows:
 Scripts are provided to deploy smart contracts on Ethereum networks:
 - **deploy_with_ethers.ts**: Deploys contracts using the `ethers.js` library.
 - **deploy_with_web3.ts**: Deploys contracts using the `web3.js` library.
-
-### Customization
-To deploy a different contract, update the contract name and any required constructor arguments in the respective script.
 
 ## Tests
 
